@@ -11,8 +11,6 @@ Objective
   
 - Providing actionable insights to minimize business losses.
 
-- Creating deployment to Huggingface
-
 Dataset
 
 Source: Hotel Customer Dataset (https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset/code)
