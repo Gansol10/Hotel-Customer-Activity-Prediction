@@ -1,14 +1,79 @@
 # Hotel-Customer-Activity-Prediction
-Predict Hotel Customer Activity Related on Cancel their Booking or Not
-- The Hotel Reservation Project is to explore customer activity related to their booking and reservation status. The main or the output of this project is aimed to predict whether the customer will cancel their booking or not. The online hotel reservation have developed their booking process but they have also brought some challanges like the typical reasons for cancellations include change of plans, scheduling conflicts, etc. This is often made easier by the option to do so free of charge or preferably at a low cost which is beneficial to hotel guests but it is a less desirable and possibly revenue-diminishing factor for hotels to deal with. This modeling is useful for hotels to manage a problem like this and to reduce and minimalize the business loss. The dataset includes various features such as the number of adults and children, lead time, room type, and more. So at last the target feature in this dataset `booking_status`, which has two categories: "Not_Canceled" and "Canceled."
-- In this project we have to focus to the detail of the feature because there are have 3 types of data, first is numerical, categorical, and categorical numeric. It is important for us to understand our feature to make the performance of our model better.
-- After Data exploration and know the feature the next step is data cleaning like checking and handling missing value and data duplicated
-- The next step is exploratory data analysis so in this step we will show the chart about the correlation feature 
-- In the feature engineering or data preprocessing i checked cardinality to categorical features and checked outlier to numerical features, here contain handling outlier and split the data into train and test to do the prediction
-- In this project i used pipeline to connect all the component so make it efficient
-- The next step i defined all the model learning that used in this project using pipeline
-- To determine the best model i used cross validation and got the result of the best model
-- After checking the performance of the baseline model i decide to use hyperparameter tuning expected to improve the performance of the baseline model
-- My model performance reach the score up to 87% with no gap in the train and test set so it can be concluded that is good enough model
-- The last step in this project i did the conclusion and wrote the business insgiht from my analysis related to the data set
-- The output of this project, i created the deployment of the EDA (Chart Visualization) and The prediction of my model into huggingface
+Overview
+
+This project focuses on predicting hotel customer activity using advanced machine learning techniques. The primary goal is to build a robust model to predict booking statuses and reduce business losses caused by cancellations or no-shows.
+
+Objective
+
+- Utilizing machine learning models such as Artificial Neural Networks (ANN).
+
+- Comparing sequential and functional approaches to determine the best-performing model.
+  
+- Providing actionable insights to minimize business losses.
+
+- Creating deployment to Huggingface
+
+Dataset
+
+Source: Hotel Customer Dataset
+
+- Size: Approx. 500MB
+
+- Format: CSV
+
+- Features:
+
+  - Customer demographic information
+
+  - Booking details
+
+  - Cancellation status
+
+  - Payment information
+
+Technology Stack
+
+- Programming Languages: Python
+
+- Libraries: Pandas, Numpy, Seaborn, Matplotlib, Scikit-learn, TensorFlow, NLTK
+
+- Tools: Google Colab
+
+- Techniques: Artificial Neural Networks, Sequential and Functional APIs
+
+Workflow
+
+1. Data Preprocessing:
+
+- Cleaning and preprocessing raw data to handle missing values and outliers.
+
+- Using NLTK for text feature extraction if applicable.
+
+2. Feature Engineering:
+
+- Extracting relevant features to improve model accuracy.
+
+- Normalizing and encode categorical data.
+
+3. Model Development:
+
+- Building and train ANN models using both sequential and functional APIs.
+
+- Evaluating performance using metrics such as accuracy, precision, and recall.
+
+4. Visualization:
+
+- Using Matplotlib and Seaborn to visualize data trends and model performance.
+
+Installation and Setup
+
+Results and Insights
+
+- Key Features Impacting Booking Status: Highlighted demographic and booking factors that influence cancellations.
+
+- Model Accuracy: Best model achieved an accuracy of 92% with a recall of 88%.
+
+- Business Impact: Insights into customer behavior that can help hotels improve operational efficiency.
+
+Link Huggingface: https://huggingface.co/spaces/Gansol/Milestone_2
+
