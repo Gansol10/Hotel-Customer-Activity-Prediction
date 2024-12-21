@@ -15,7 +15,7 @@ Objective
 
 Dataset
 
-Source: Hotel Customer Dataset
+Source: Hotel Customer Dataset (https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset/code)
 
 - Size: Approx. 500MB
 
